@@ -4,82 +4,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>categoria salato</title>
+    <title>Categoria Salato</title>
+    <!-- Aggiungi il link a Bootstrap per la gestione responsiva e il design moderno -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            /* Imposta l'immagine di sfondo */
-            background-color: white;
-
+            background-image: url('pizza.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Rende l'immagine di sfondo fissa */
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 20px;
         }
 
         h1 {
             text-align: center;
-            /* Aligner le texte au centre */
-            /* Autres propriétés CSS pour le sélecteur h1 */
-        }
-
-
-        /* Aggiungi uno spazio tra le immagini */
-        img {
-            margin-right: 30px;
-            /* Aggiunge uno spazio a destra di ogni immagine */
+            color: white;
         }
 
         p {
             text-align: left;
             font-weight: bold;
-            /* Aggiungi il grassetto */
+            color: white;
+        }
+
+        img {
+            margin-bottom: 20px;
+            width: 100%; /* Le immagini occupano il 100% della larghezza disponibile */
+            height: auto;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.5); /* Aggiungi uno sfondo semi-trasparente per migliorare la leggibilità */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .row {
+            margin-bottom: 30px;
         }
     </style>
 </head>
 
 <body>
-    <h1>categoria salato proposti a guarene fuori dal comune </h1>
+    <div class="container">
+        <!-- Titolo della pagina -->
+        <h1>Categoria Salato Proposti a Guarene Fuori dal Comune</h1>
 
+        <!-- Griglia per i prodotti -->
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>PIZZA CON SALSICCIA</p>
+                <img src="IMG-20240326-WA0038.jpg" alt="Pizza con salsiccia">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PIZZETE</p>
+                <img src="IMG-20240326-WA0029.jpg" alt="Pizzete">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>SALATINI</p>
+                <img src="IMG-20240326-WA0030.jpg" alt="Salatini">
+            </div>
+        </div>
 
-    <img src="IMG-20240326-WA0038.jpg" alt="" style=" width: 300px; height: auto;">
-    <p>PIZZA CON SALSICCIA</p>
-    <img src="IMG-20240326-WA0029.jpg" alt="" style=" width: 300px; height: auto;">
-    <p>PIZZETE </p>
-    <img src="IMG-20240326-WA0030.jpg" alt="" style="width: 200px; height: auto;">
-    <p>SALATINI</p>
-    <img src="IMG-20240326-WA0032.jpg" alt="" style="width: 200px; height: auto;">
-    <p>FOCACCIA</p>
-    <img src="IMG-20240326-WA0033.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PIZZA </p>
-    <img src="IMG-20240326-WA0034.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PIZZA </p>
-    <img src="IMG-20240326-WA0037.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PIZZA CON PROSCIUTTO </p>
-    <img src="IMG-20240326-WA0040.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PANE E PROSCIUTTO </p>
-    <img src="IMG-20240326-WA0041.jpg" alt="" style="width: 200px; height: auto;">
-    <p>FOCACCIA</p>
-    <img src="IMG-20240326-WA0042.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PIZZA AL TEGAMINO</p>
-    <img src="IMG-20240326-WA0027.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PANINO</p>
-    <img src="IMG-20240326-WA0028.jpg" alt="" style="width: 200px; height: auto;">
-    <p>GRISSINI</p>
-    <img src="IMG-20240326-WA0036.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PANE</p>
-    <img src="IMG-20240329-WA0032.jpg" alt="" style="width: 200px; height: auto;">
-    <p>ROLLO AI WRUSTEL</p>
-    <img src="IMG-20240329-WA0027.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PANE SCIOCCO SENZA SALE</p>
-    <img src="IMG-20240329-WA0031.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PANE ALLE OLIVE</p>
-    <img src="Immagine WhatsApp 2024-03-30 ore 14.05.52_b16b46e1.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PANE </p>
-    <img src="IMG-20240326-WA0026.jpg" alt="" style="width: 200px; height: auto;">
-    <p>PANE </p>
-    <img src="Immagine WhatsApp 2024-03-29 ore 07.25.19_80f7c7b2.jpg" alt="" style="width: 200px; height: auto;">
-    <p>TORTINE RICOTTA E SPINACI </p>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>FOCACCIA</p>
+                <img src="IMG-20240326-WA0032.jpg" alt="Focaccia">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PIZZA</p>
+                <img src="IMG-20240326-WA0033.jpg" alt="Pizza">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PIZZA CON PROSCIUTTO</p>
+                <img src="IMG-20240326-WA0037.jpg" alt="Pizza con prosciutto">
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>PANE E PROSCIUTTO</p>
+                <img src="IMG-20240326-WA0040.jpg" alt="Pane e prosciutto">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>FOCACCIA</p>
+                <img src="IMG-20240326-WA0041.jpg" alt="Focaccia">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PIZZA AL TEGAMINO</p>
+                <img src="IMG-20240326-WA0042.jpg" alt="Pizza al tegamino">
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>PANINO</p>
+                <img src="IMG-20240326-WA0027.jpg" alt="Panino">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>GRISSINI</p>
+                <img src="IMG-20240326-WA0028.jpg" alt="Grissini">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PANE</p>
+                <img src="IMG-20240326-WA0036.jpg" alt="Pane">
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>ROLLO AI WRUSTEL</p>
+                <img src="IMG-20240329-WA0032.jpg" alt="Rollo ai wurstel">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PANE SCIOCCO SENZA SALE</p>
+                <img src="IMG-20240329-WA0027.jpg" alt="Pane sciocco senza sale">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PANE ALLE OLIVE</p>
+                <img src="IMG-20240329-WA0031.jpg" alt="Pane alle olive">
+            </div>
+        </div>
 
-    <!-- Aggiungi altre immagini se necessario -->
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>PANE</p>
+                <img src="Immagine WhatsApp 2024-03-30 ore 14.05.52_b16b46e1.jpg" alt="Pane">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PANE</p>
+                <img src="IMG-20240326-WA0026.jpg" alt="Pane">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>TORTINE RICOTTA E SPINACI</p>
+                <img src="Immagine WhatsApp 2024-03-29 ore 07.25.19_80f7c7b2.jpg" alt="Tortine ricotta e spinaci">
+            </div>
+        </div>
+    </div>
+
+    <!-- Aggiungi il JS di Bootstrap per funzionalità interattive -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
+
