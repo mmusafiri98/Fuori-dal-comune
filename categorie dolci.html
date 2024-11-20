@@ -4,102 +4,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>categoria dolci</title>
+    <title>Categoria Dolci</title>
+    <!-- Aggiungi il link a Bootstrap per la gestione responsiva e il design moderno -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-           /* Imposta l'immagine di sfondo */
             background-image: url('cookies.jpg');
-            /* Regola le dimensioni e il posizionamento dell'immagine di sfondo */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            /* Altri stili per il body */
+            background-attachment: fixed; /* Rende l'immagine di sfondo fissa */
             font-family: Arial, sans-serif;
-            /* Imposta il tipo di carattere */
             color: #333;
-            /* Imposta il colore del testo */
             padding: 20px;
-            /* Aggiunge spaziatura intorno al contenuto */
         }
 
-        h1 {
+        h1, h2 {
             text-align: center;
-            /* Aligner le texte au centre */
-            /* Autres propriétés CSS pour le sélecteur h1 */
-        }
-
-        h2 {
-            text-align: center;
-        }
-
-        /* Aggiungi uno spazio tra le immagini */
-        img {
-            margin-right: 30px;
-            /* Aggiunge uno spazio a destra di ogni immagine */
+            color: white;
         }
 
         p {
             text-align: left;
             font-weight: bold;
-            /* Aggiungi il grassetto */
+            color: white;
+        }
+
+        img {
+            margin-right: 30px;
+            width: 100%; /* Le immagini occupano il 100% della larghezza disponibile */
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 1000px; /* Imposta una larghezza massima per il contenitore */
+            margin: 0 auto; /* Centra il contenuto */
+            background-color: rgba(0, 0, 0, 0.5); /* Aggiungi uno sfondo semi-trasparente per migliorare la leggibilità */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .row {
+            margin-bottom: 30px;
         }
     </style>
 </head>
 
 <body>
-    <h1>categoria dolci proposti a guarene fuori dal comune </h1>
-    <h2>diversi dolci proposti nella pasticeria </h2>
-    <p>PASTARELLE PUGLIESI </p>
-    <img src="IMG-20240326-WA0045.jpg"
-        alt="chiamati anche biscotti da latte è un biscotto asciutto che si può sia pucciare nel latte che nel vin Santo"
-        style="width: 300px; height: auto;">
+    <div class="container">
+        <!-- Titolo della pagina -->
+        <h1>Categoria Dolci Proposti a Guarene Fuori dal Comune</h1>
+        <h2>Diversi Dolci Proposti nella Pasticceria</h2>
 
+        <!-- Elenco dei dolci con le relative immagini -->
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>PASTARELLE PUGLIESI</p>
+                <img src="IMG-20240326-WA0045.jpg" alt="Biscotti da latte, possono essere immersi nel latte o vin santo">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>BACI DI DAMA</p>
+                <img src="IMG-20240326-WA0046.jpg" alt="Baci di dama con nocciole, burro, zucchero e cioccolato fondente">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>GIRELLE</p>
+                <img src="IMG-20240326-WA0044.jpg" alt="Dolce girelle">
+            </div>
+        </div>
 
-    <p>BACI DI DAMA </p>
-    <img src="IMG-20240326-WA0046.jpg"
-        alt="composti con farina di nocciole , burro , zucchero e farina normale è vengono messi insieme da un cioccolato fondente"
-        style=" width: 300px; height: auto;">
-    <p>GIRELLE </p>
-    <img src="IMG-20240326-WA0044.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>GIRELLE </p>
-    <img src="IMG-20240326-WA0025.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>BRIOCHES</p>
-    <img src="IMG-20240326-WA0021.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>CROSTATINE</p>
-    <img src="IMG-20240329-WA0007.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>CANNOLI CON CIOCCOLATO BIANCO E NOCCIOLA</p>
-    <img src="IMG-20240329-WA0004.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>PASTE DI MELIGA CON AGGIUNTA DI FARINA</p>
-    <img src="IMG-20240329-WA0008.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>BISCOTTI MORBIDI AL LIMONE</p>
-    <img src="IMG-20240329-WA0005.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>MELIGHE </p>
-    <img src="IMG-20240329-WA0006.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>MERINGHE</p>
-    <img src="IMG-20240329-WA0003.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p> PASTIERA </p>
-    <img src="Immagine WhatsApp 2024-03-29 ore 16.13.53_f587aac8.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>BRIOCHES</p>
-    <img src="Immagine WhatsApp 2024-03-29 ore 08.04.20_a647ff48.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>TORTA GUARENE </p>
-    <img src="Immagine WhatsApp 2024-03-29 ore 07.28.00_6049cc3f.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>MUFFINS ALLA RICOTTA</p>
-    <img src="IMG-20240329-WA0029.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>BIJOUX</p>
-    <img src="IMG-20240329-WA0026.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>ZEPPOLE DI SANGIUSEPPE</p>
-    <img src="IMG-20240329-WA0033.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>PASTE DI MANDORLE</p>
-    <img src="IMG-20240329-WA0034.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p>BUGIE</p>
-    <img src="IMG-20240329-WA0035.jpg" alt="Dolce" style="width: 200px; height: auto;">
-    <p> IRIS </p>
-    <img src="IMG-20240329-WA0036.jpg" alt="Dolce" style="width: 200px; height: auto;">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>BRIOCHES</p>
+                <img src="IMG-20240326-WA0021.jpg" alt="Brioches dolci">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>CROSTATINE</p>
+                <img src="IMG-20240329-WA0007.jpg" alt="Piccole crostate">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>CANNOLI CON CIOCCOLATO BIANCO E NOCCIOLA</p>
+                <img src="IMG-20240329-WA0004.jpg" alt="Cannoli con cioccolato bianco e nocciola">
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>PASTE DI MELIGA CON AGGIUNTA DI FARINA</p>
+                <img src="IMG-20240329-WA0008.jpg" alt="Paste di meliga con farina aggiuntiva">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>BISCOTTI MORBIDI AL LIMONE</p>
+                <img src="IMG-20240329-WA0005.jpg" alt="Biscotti morbidi al limone">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>MELIGHE</p>
+                <img src="IMG-20240329-WA0006.jpg" alt="Dolce melighe">
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>MERINGHE</p>
+                <img src="IMG-20240329-WA0003.jpg" alt="Dolce meringhe">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PASTIERA</p>
+                <img src="Immagine WhatsApp 2024-03-29 ore 16.13.53_f587aac8.jpg" alt="Pastiera dolce tradizionale">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>BRIOCHES</p>
+                <img src="Immagine WhatsApp 2024-03-29 ore 08.04.20_a647ff48.jpg" alt="Brioches fresche">
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>TORTA GUARENE</p>
+                <img src="Immagine WhatsApp 2024-03-29 ore 07.28.00_6049cc3f.jpg" alt="Torta tipica di Guarene">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>MUFFINS ALLA RICOTTA</p>
+                <img src="IMG-20240329-WA0029.jpg" alt="Muffins con ricotta">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>BIJOUX</p>
+                <img src="IMG-20240329-WA0026.jpg" alt="Dolce bijoux">
+            </div>
+        </div>
 
-    <!-- Aggiungi altre immagini se necessario -->
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>ZEPPOLE DI SANGIUSEPPE</p>
+                <img src="IMG-20240329-WA0033.jpg" alt="Zeppole tradizionali">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>PASTE DI MANDORLE</p>
+                <img src="IMG-20240329-WA0034.jpg" alt="Paste di mandorle dolci">
+            </div>
+            <div class="col-12 col-md-4">
+                <p>BUGIE</p>
+                <img src="IMG-20240329-WA0035.jpg" alt="Bugie dolci">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <p>IRIS</p>
+                <img src="IMG-20240329-WA0036.jpg" alt="Dolce Iris">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Aggiungi il JS di Bootstrap per funzionalità interattive -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
